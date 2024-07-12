@@ -7,6 +7,12 @@ public class NormalUser extends User{
 
     public NormalUser(String name, String phonenumber, String email, String password){
         super(name, phonenumber, email, password);
+        this.operations = new IOOperation[]{
+                new ViewBooks(),
+                new Search(),
+                new PlaceOrder()
+
+        };
     }
 
     @Override
