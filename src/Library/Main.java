@@ -65,6 +65,7 @@ public class Main {
         }
         database.AddUser(user);
         System.out.println("User Created Successfully!");
+        // trest
     }
 
 
